@@ -7,7 +7,7 @@ def main():
     check_env()
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     model = os.getenv("OPENAI_MODEL", "gpt-5.4-nano")
-    messages = [{"role":"system" ,"content":"speak like a fashion designer"}]
+    messages = [{"role":"system" ,"content":"speak  like a fashion designer"}]
 
     print("Chat with the bot (type 'exit' to quit):")
     while True:
